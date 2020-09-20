@@ -2,4 +2,4 @@
 
 CSS flexbox-guide with css content,
 
-download zip and run index.html you will see it in action.
+download zip and run flex-box.html you will see it in action.
