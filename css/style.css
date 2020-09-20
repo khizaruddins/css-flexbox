@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.flex-box-container{
+  margin: 50px 0 20px 0;
+}
+
+.flex-box-items {
+  margin: 20px 0;
+}
+
+.flex-box-container h1, .flex-box-items h1 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.container-1{
+  display: flex;
+  border: 1px solid #000;
+}
+
+.container-2{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+}
+
+.container-3{
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid #000;
+}
+
+.container-4{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.container-5{
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid #000;
+}
+.container-6{
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.container-7{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #000;
+}
+
+.container-8{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 1px solid #000;
+}
+
+.container-9{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #000;
+}
+
+.container-10{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #000;
+}
+
+.container-11{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #000;
+}
+
+.container-12{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: 1px solid #000;
+}
+
+.container-13{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid #000;
+}
+
+.container-14{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border: 1px solid #000;
+}
+
+.container-15{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.container-16{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  border: 1px solid #000;
+}
+
+.container-17 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid #000;
+}
+
+.container-18 { 
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.container-19{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.container-20{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.container-21{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.container-22{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.container-23{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.container-24{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+.container-25{
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+
+.item-end {
+  align-self: flex-end;
+}
+
+.item-start{
+  align-self: flex-start;
+}
+
+.item-stretch{
+  align-self: stretch;
+}
+
+.o-1{
+  order: 1;
+}
+
+.o-minus-1{
+  order: -1;
+}
+
+.f-20{
+  font-size: 20px;
+}
+
+.item-19{
+  flex-grow: 1;
+}
+
+.fg-1{
+  flex-grow: 1;
+}
+
+.fg-2 {
+  flex-grow: 2;
+}
+
+.fg-3{
+  flex-grow: 3;
+}
+
+.d-inline-block{
+  display: inline-block;
+}
+
+.heading{
+  display: block;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.explanation{
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 100;
+}
+
+.css {
+  background-color: #eee;
+  padding: 0px 5px;
+}
+
+.hr{
+  display: flex;
+  align-items: center;
+}
+
+.item{
+  font-size: 40px;
+  color: #fff;
+  padding: 40px;
+  margin: 30px;
+  background-color: #f4125f;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-1000 {
+  height: 1000px;
+}
+
+.f-100 {
+  font-size: 100px;
+}
+
+.fb-20{
+  flex-basis: 20%;
+}
+
+.fs-0{
+  flex-shrink: 0;
+}
+
+fs-1 {
+  flex-shrink: 1;
+}
+
+.fb-300{
+  flex-basis: 300px;
+}

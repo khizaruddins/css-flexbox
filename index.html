@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" >
+  <title>Flex box</title>
+</head>
+<body>
+  <section class="flex-box-container">
+    <h1>
+      flex box containers
+    </h1>
+    <!-- just display flex -->
+    <h3 class="heading">
+      display: flex;
+      <div class="explanation">
+        <strong>Explanation:</strong> <span class="css">display: flex</span> makes a div a flex container, and its direct children div as flex items
+      </div>
+    </h3>
+    <div class="container-1">
+      <div class="item item-1">1</div>
+      <div class="item item-1">2</div>
+      <div class="item item-1">3</div>
+      <div class="item item-1">4</div>
+      <div class="item item-1">5</div>
+    </div>
+    <!-- display: flex and flex-direction: row -->
+  
+    <h3 class="heading">
+      display: flex; flex-direction: row
+      <div class="explanation">
+        <strong>Explanation:</strong> flex-direction is used to specify the direction of flex items default being row
+      </div>
+    </h3>
+  
+    <div class="container-2">
+      <div class="item item-2">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-2">3</div>
+      <div class="item item-2">4</div>
+      <div class="item item-2">5</div>
+    </div>
+  
+    
+    <!-- display: flex and flex-direction: row-reverse -->
+  
+    <h3 class="heading">
+      display: flex; flex-direction: row-reverse
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        if we use row-reverse it will reverse the order of displaying the flex items.
+      </div>
+    </h3>
+  
+    <div class="container-3">
+      <div class="item item-3">1</div>
+      <div class="item item-3">2</div>
+      <div class="item item-3">3</div>
+      <div class="item item-3">4</div>
+      <div class="item item-3">5</div>
+    </div>
+  
+    <!-- display: flex and flex-direction: column -->
+    <h3 class="heading">
+      display: flex; flex-direction: column
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          flex-direction: column      
+        </span>
+        lets span flex items horizonally acquiring 100 space of width and it acts as a column so another flex item will be stacked below the first and so on
+      </div>
+    </h3>
+  
+    <div class="container-4">
+      <div class="item item-4">1</div>
+      <div class="item item-4">2</div>
+      <div class="item item-4">3</div>
+      <div class="item item-4">4</div>
+      <div class="item item-4">5</div>
+    </div>
+  
+    <!-- display: flex and flex-direction: column-reverse -->
+    <h3 class="heading">
+      display: flex; flex-direction: column-reverse
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          flex-direction: column      
+        </span>
+        does the same as <span class="css"> flex-direction column </span> but it reverses flex items so last flex item will show first.
+      </div>
+    </h3>
+    <div class="container-5">
+      <div class="item item-5">1</div>
+      <div class="item item-5">2</div>
+      <div class="item item-5">3</div>
+      <div class="item item-5">4</div>
+      <div class="item item-5">5</div>
+    </div>
+  
+    <!-- display: flex justify-content: center and flex-direction: row -->
+    <h3 class="heading">
+      display: flex; flex-direction: row; justify-content: center
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          justify-content: center
+        </span> 
+        will align flex items in center inside the container, it works along x axis, so flex items along x axis will be centered, in short align items is used to align flex items column wise.
+      </div>
+    </h3>
+  
+    <div class="container-6">
+      <div class="item item-6">1</div>
+      <div class="item item-6">2</div>
+      <div class="item item-6">3</div>
+      <div class="item item-6">4</div>
+      <div class="item item-6">5</div>
+    </div>
+  
+    <!-- display: flex justify-content: center and flex-direction: row -->
+  
+    <!-- display: flex justify-content: flex-start and flex-direction: row -->
+    <h3 class="heading">
+      display: flex; flex-direction: row; justify-content: flex-start
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          justify-content: flex-start
+        </span> 
+        will align flex items in start of container
+  
+        
+      </div>
+    </h3>
+    
+    <div class="container-7">
+      <div class="item item-7">1</div>
+      <div class="item item-7">2</div>
+      <div class="item item-7">3</div>
+      <div class="item item-7">4</div>
+      <div class="item item-7">5</div>
+    </div>
+  
+    <!-- display: flex justify-content: flex-end and flex-direction: row -->
+    <h3 class="heading">
+      display: flex; flex-direction: row; justify-content: flex-end
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          justify-content: flex-end
+        </span> 
+        will align flex items in end of container 
+  
+        
+      </div>
+    </h3>
+    <div class="container-8">
+      <div class="item item-8">1</div>
+      <div class="item item-8">2</div>
+      <div class="item item-8">3</div>
+      <div class="item item-8">4</div>
+      <div class="item item-8">5</div>
+    </div>
+  
+  
+  
+     <!-- display: flex justify-content: space-between, flex-direction: row, justify-content: space-between -->
+     <h3 class="heading">
+      display: flex; flex-direction: row; justify-content: space-between
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          justify-content: space-between
+        </span> 
+        will distribute the flex items inside the container with space bewteen each flex items
+  
+        
+      </div>
+    </h3>
+    <div class="container-9">
+      <div class="item item-9">1</div>
+      <div class="item item-9">2</div>
+      <div class="item item-9">3</div>
+      <div class="item item-9">4</div>
+      <div class="item item-9">5</div>
+    </div>
+     <!-- display: flex justify-content: space-around and flex-direction: row, justify-content: space-around -->
+     <h3 class="heading">
+      display: flex; flex-direction: row; justify-content: space-around
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          justify-content: space-around
+        </span> 
+        will give equal spaces on left and right side of each flex items
+  
+        
+      </div>
+    </h3>
+    <div class="container-10">
+      <div class="item item-10">1</div>
+      <span class="hr">|</span>
+      <div class="item item-10">2</div>
+      <span class="hr">|</span>
+      <div class="item item-10">3</div>
+      <span class="hr">|</span>
+      <div class="item item-10">4</div>
+      <span class="hr">|</span>
+      <div class="item item-10">5</div>
+    </div>
+    
+     <!-- display: flex justify-content: space-evenly and flex-direction: row -->
+     <h3 class="heading">
+      display: flex; flex-direction: row; justify-content: space-evenly
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          justify-content: space-evenly
+        </span> 
+        will give equal space between the two flex items
+        
+      </div>
+    </h3>
+    <div class="container-11">
+      <div class="item item-11">1</div>
+      <div class="item item-11">2</div>
+      <div class="item item-11">3</div>
+      <div class="item item-11">4</div>
+      <div class="item item-11">5</div>
+    </div>
+  
+  
+  <!-- display: flex; flex-direction: row; align-items: stretch -->
+    <h3 class="heading">
+      display: flex; flex-direction: row; align-items: stretch
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          align-items: stretch
+        </span> 
+        will stretch all flex items vertically to fit inside the container, align items works on y axis, and will stretch flex items along y axis
+      </div>
+    </h3>
+    <div class="container-12">
+      <div class="item item-12">1</div>
+      <div class="item item-12">2</div>
+      <div class="item item-12 h-300">3</div>
+      <div class="item item-12">4</div>
+      <div class="item item-12">5</div>
+    </div>
+  
+  
+  
+  <!-- display: flex; flex-direction: row; align-items: flex-start -->
+    <h3 class="heading">
+      display: flex; flex-direction: row; align-items: flex-start
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          align-items: flex-start
+        </span> 
+          will start flex items from top of container, if height of one flex item is bigger to rest, than using this, we can make other flex items to float at top.
+      </div>
+    </h3>
+    <div class="container-13">
+      <div class="item item-13">1</div>
+      <div class="item item-13">2</div>
+      <div class="item item-13 h-300">3</div>
+      <div class="item item-13">4</div>
+      <div class="item item-13">5</div>
+    </div>
+  
+  
+  <!-- display: flex; flex-direction: row; align items: flex-end -->
+    <h3 class="heading">
+      display: flex; flex-direction: row; align-items: flex-end
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          align items: flex-end
+        </span> 
+        will start flex items from bottom of container, if height of one flex item is bigger to rest, than using this, we can make other flex items to float at bottom.
+      </div>
+    </h3>
+    <div class="container-14">
+      <div class="item item-14">1</div>
+      <div class="item item-14">2</div>
+      <div class="item item-14 h-300">3</div>
+      <div class="item item-14">4</div>
+      <div class="item item-14">5</div>
+    </div>
+  
+  
+  
+    <h3 class="heading">
+      display: flex; flex-direction: row; align-items: center
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          align-items: center
+        </span> 
+        will center flex items vertically in middle of container, if height of one flex item is bigger to rest, than using this, we can make other flex items to float in middle.
+      </div>
+    </h3>
+    <div class="container-15">
+      <div class="item item-15">1</div>
+      <div class="item item-15">2</div>
+      <div class="item item-15 h-300">3</div>
+      <div class="item item-15">4</div>
+      <div class="item item-15">5</div>
+    </div>
+  
+  
+  
+  
+    <h3 class="heading">
+      display: flex; flex-direction: row; align-items: baseline
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          align-items: baseline
+        </span> 
+        will center flex items vertically in middle of container based on imaginary line below, if height of one flex item is bigger than rest, than using this, we can make other flex items to float in middle based on imaginary line below joining all flex items text content, 
+        in short align items is used to align flex items row wise.
+      </div>
+    </h3>
+    <div class="container-16">
+      <div class="item item-16">1</div>
+      <div class="item item-16">2</div>
+      <div class="item item-16 f-100">3</div>
+      <div class="item item-16">4</div>
+      <div class="item item-16">5</div>
+    </div>
+  
+    <!-- display: flex; flex-direction: column; justify-content: center; align-items: flex-end; -->
+  
+    <h3 class="heading">
+      display: flex; flex-direction: column; justify-content: center; align-items: flex-end
+      <div class="explanation">
+        <strong>Explanation:</strong>
+        <span class="css">
+          flex-direction: column;
+        </span> 
+        will change the behavoir of justify-content and align-items, justify content will now work on y axis and align items will work on x axis,
+        hence here, <span class="css">justify-content: center </span> will center flex items vertically, i.e. vertically aligning it to middle, and <span class="css">align-items: flex-end</span> will align flex items horizontally to end 
+      </div>
+    </h3>
+    <div class="container-17 h-1000">
+      <div class="item item-17">1</div>
+      <div class="item item-17">2</div>
+      <div class="item item-17">3</div>
+      <div class="item item-17">4</div>
+      <div class="item item-17">5</div>
+    </div>
+  </section>
+
+  <section class="flex-box-items">
+    <h1>
+      flex box items
+    </h1>
+    <!--  display flex; align-self: flex-end; -->
+    <h3 class="heading">
+      align-self: flex-end;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-self: flex-end;</span> 
+        overrides the behavoir of container's align items for that particular flex item, and align it to flex-end, leaving others to follow containers alignment,
+      </div>
+    </h3>
+    <div class="container-18">
+      <div class="item item-18">1</div>
+      <div class="item item-18">2</div>
+      <div class="item item-18 h-300">3</div>
+      <div class="item item-18 item-end">4</div>
+      <div class="item item-18">5</div>
+    </div>
+
+    <!--  display flex; align-self: flex-start; -->
+    <h3 class="heading">
+      align-self: flex-start;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-self: flex-start;</span> 
+        overrides the behavoir of container's align items for that particular flex item, and align it to flex-start, leaving others to follow containers alignment,
+      </div>
+    </h3>
+    <div class="container-18">
+      <div class="item item-18">1</div>
+      <div class="item item-18">2</div>
+      <div class="item item-18 h-300">3</div>
+      <div class="item item-18 item-start">4</div>
+      <div class="item item-18">5</div>
+    </div>
+
+   <!--  display flex; align-self: stretch; -->
+    <h3 class="heading">
+      align-self: stretch;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-self: stretch;</span> 
+        overrides the behavoir of container's align items for that particular flex item, and stretch it, leaving others to follow containers alignment,
+      </div>
+    </h3>
+    <div class="container-18">
+      <div class="item item-18">1</div>
+      <div class="item item-18">2</div>
+      <div class="item item-18 h-300">3</div>
+      <div class="item item-18 item-stretch">4</div>
+      <div class="item item-18">5</div>
+    </div>
+
+     <!--  display flex; order: 0; -->
+     <h3 class="heading">
+      order: 0;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">order: 0</span> 
+        order is used to specify in which order the flex items will be displayed, initially or if we dont specify its default value is 0
+      </div>
+    </h3>
+    <div class="container-18">
+      <div class="item item-18">1</div>
+      <div class="item item-18">2</div>
+      <div class="item item-18">3</div>
+      <div class="item item-18">4</div>
+      <div class="item item-18">5</div>
+    </div>
+
+    <!--  display flex; order: 1; -->
+    <h3 class="heading">
+      order: -1 | 1;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">order: 0</span> 
+        we can change the order of each individual flex items by specifying order -1 1 0 2 and so on, the lowest order is seen first.
+      </div>
+    </h3>
+    <div class="container-18">
+      <div class="item item-18">1 <span class="f-20 d-inline-block">order is 0 if not specified</span> </div>
+      <div class="item item-18">2 <span class="f-20 d-inline-block">order is 0 if not specified</span> </div>
+      <div class="item item-18 o-1">3 <span class="f-20 d-inline-block">order is 1</span></div>
+      <div class="item item-18">4 <span class="f-20 d-inline-block">order is 0 if not specified</span></div>
+      <div class="item item-18 o-minus-1">5 <span class="f-20 d-inline-block">order is -1</span></div>
+    </div>
+
+    <!--  display flex; flex-grow: 1; -->
+    <h3 class="heading">
+      flex-grow: 1
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex: 1</span> 
+        it is used to make flex item to grow and take the maximum available width it can take
+      </div>
+    </h3>
+    <div class="container-18">
+      <div class="item item-19">1 </div>
+      <div class="item item-19">2 </div>
+      <div class="item item-19">3 </div>
+      <div class="item item-19">4 </div>
+      <div class="item item-19">5 </div>
+    </div>
+
+    <!--  display flex; flex-grow: 1 | 2 | 3;, -->
+    <h3 class="heading">
+      flex-grow: 1 | 2 | 3
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex-grow: 1 | 2 | 3</span> 
+        flex-grow takes integer value which makes it grow proportion to what flex-grow value is given to other flex items, meaning
+        if i give a flex item a flex grow of value 1 and another as value 2 it will grow 2 times as much as what flex grow 1 has acquired.
+      </div>
+    </h3>
+    if we give to only one flex item it will occupy all of the available whitespace leaving spaces for other flex items
+    <div class="container-18">
+      <div class="item item-20 fg-1">1 </div>
+      <div class="item item-20 fg-1">2 </div>
+      <div class="item item-20 fg-2">3 </div>
+      <div class="item item-20 fg-3">4 </div>
+      <div class="item item-20 fg-1">5 </div>
+    </div>
+
+    <!--  display flex; flex: 1;, -->
+    <h3 class="heading">
+      flex: 1
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex: 1</span> 
+        <span class="css">flex-grow: 1</span> can also be written as <span class="css">flex: 1</span>
+        if we give to only one flex item it will occupy all of the available whitespace leaving spaces for other flex items
+      </div>
+    </h3>
+    
+    <div class="container-18">
+      <div class="item item-20 fg-1">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+    </div>
+
+    <!--  display flex; flex-basis: 20%;, -->
+    <h3 class="heading">
+      flex-basis: 20%
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex-basis: 20%</span> 
+        is used to give width to particulat flex item. So 20% will give flex item 20 percent of overall width of the container.
+      </div>
+    </h3>
+    
+    <div class="container-18">
+      <div class="item item-20">1 </div>
+      <div class="item item-20 fb-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+    </div>
+
+    <!--  display flex; flex-shrink: 0 | 1;, -->
+    <h3 class="heading">
+      flex-shrink: 0 | 1
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex-shrink: 0 | 1</span> 
+        the <span class="css">flex-basis: 300px</span> is applied 300px only when viewport is not changed,
+        when we gradually decreases the view port at some point the flex-basis shrinks to make other flex items fit inside the container
+        making width of that flex less than 20%, but in some cases we dont need that to happen, hence we use <span class="css">flex-shrink: 0 | 1</span>
+        in order to make that flex item to shrink or not to shrink depending upon the value we provide
+        so 1 is for letting flex item to shrink and 0 for not to shrink.
+      </div>
+    </h3>
+    
+    <div class="container-18">
+      <div class="item item-20">1 </div>
+      <div class="item item-20 fb-300">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+    </div>
+
+    <!--  display flex; flex-shrink: 0, -->
+    <h3 class="heading">
+      flex-shrink: 0
+      <div class="explanation">
+        <strong>Example:</strong> 
+        <span class="css">flex-shrink: 0</span> 
+        shrink the viewport to see changes.
+        it doesn't allow to shrink
+      </div>
+    </h3>
+    
+    <div class="container-18">
+      <div class="item item-20">1 </div>
+      <div class="item item-20 fb-300 fs-0">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+    </div>
+
+    <!--  display flex; flex-shrink: 0, -->
+    <h3 class="heading">
+      flex-shrink: 1
+      <div class="explanation">
+        <strong>Example:</strong> 
+        <span class="css">flex-shrink: 1</span> 
+        shrink the viewport to see changes.
+        allows to shrink
+      </div>
+    </h3>
+    
+    <div class="container-18">
+      <div class="item item-20">1 </div>
+      <div class="item item-20 fb-300 fs-1">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+    </div>
+
+
+    <!--  display flex; flex: 0 0 300px, -->
+    <h3 class="heading">
+      flex: 0 0 300px
+      <div class="explanation">
+        <strong>Shorthand:</strong> 
+        <span class="css">flex: 0 0 300px</span> 
+        this is the shorthand property which covers flex-grow flex-shrink and flex-basis
+        so it applies <span class="css"> flex-grow: 0, flex-shrink: 0 </span> and <span class="css">flex-basis: 300px</span>
+        <span class="css">flex-grow: 0</span> does not allow flex item to grow and and <span class="css">flex-shrink: 0</span>
+        does not allow to shrink and <span class="css">flex-basis: 300px</span> gives the flex-item a width of 300px
+      </div>
+    </h3>
+    
+    <div class="container-18">
+      <div class="item item-20">1 </div>
+      <div class="item item-20 fb-300 fs-1">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+    </div>
+
+    <!--  display flex; flex: no-wrap, -->
+    <h3 class="heading">
+      flex-wrap: nowrap;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex-wrap: nowrap</span> 
+        if there are multiple flex items where if we shrink view port the flex items goes outside the flex container, this is the default behavior of flex items,
+        defining the functionality of <span class="css">flex-wrap: nowrap</span>
+        Note: flex wrap: is defined inside container and not for flex item
+      </div>
+    </h3>
+    
+    <div class="container-19">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+     <!--  display flex; flex: wrap, -->
+     <h3 class="heading">
+      flex-wrap: wrap;
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">flex-wrap: wrap</span> 
+        if there are multiple flex items where if we shrink view port the flex items goes outside the flex container, this is the default behavior of flex items,
+        defining the functionality of <span class="css">flex-wrap: nowrap</span>
+        if we want the excess flex items which are going out of container to fit inside it we use <span class="css">flex-wrap: wrap</span> 
+        so that the remaining flex items which is going outside will be placed below the first row. 
+        Note: flex wrap: is defined inside container and not for flex item
+      </div>
+    </h3>
+    
+    <div class="container-20">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+    <!--  display flex; flex: wrap, align-content: flex-start | flex-end | center | space-between | space-around | stretch-->
+    <h3 class="heading">
+      align-content: stretch
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-content: stretch</span> 
+        makes the rows to align based on y axis, so if we have multiple flex items such that <span class="css"> flex-wrap: wrap </span>
+        makes more rows then we can align each row based on the y axis using this flex property.
+        default being stretch.
+      </div>
+    </h3>
+    
+    <div class="container-20 h-1000">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+    <!--  display flex; flex: wrap, align-content: flex-start | flex-end | center | space-between | space-around | stretch-->
+    <h3 class="heading">
+      align-content: flex-start
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-content: flex-start</span> 
+        makes the rows to align based on y axis, so if we have multiple flex items such that <span class="css"> flex-wrap: wrap </span>
+        makes more rows then we can align each row based on the y axis using this flex property.
+        flex-start will make each row to move on top of the container, corresponding to y axis.
+      </div>
+    </h3>
+    
+    <div class="container-21 h-1000">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+    <!--  display flex; flex: wrap, align-content: flex-start | flex-end | center | space-between | space-around | stretch-->
+    <h3 class="heading">
+      align-content: flex-end
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-content: flex-end</span> 
+        makes the rows to align based on y axis, so if we have multiple flex items such that <span class="css"> flex-wrap: wrap </span>
+        makes more rows then we can align each row based on the y axis using this flex property.
+        flex-end will make each row to move at bottom of the container, corresponding to y axis.
+      </div>
+    </h3>
+    
+    <div class="container-22 h-1000">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+    <!--  display flex; flex: wrap, align-content: flex-start | flex-end | center | space-between | space-around | stretch-->
+    <h3 class="heading">
+      align-content: center
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-content: center</span> 
+        makes the rows to align based on y axis, so if we have multiple flex items such that <span class="css"> flex-wrap: wrap </span>
+        makes more rows then we can align each row based on the y axis using this flex property.
+        center will make each row to stay at exact middle of the container, corresponding to y axis.
+      </div>
+    </h3>
+    
+    <div class="container-23 h-1000">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+    <!--  display flex; flex: wrap, align-content: flex-start | flex-end | center | space-between | space-around | stretch-->
+    <h3 class="heading">
+      align-content: space-between
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-content: space-between</span> 
+        makes the rows to align based on y axis, so if we have multiple flex items such that <span class="css"> flex-wrap: wrap </span>
+        makes more rows then we can align each row based on the y axis using this flex property.
+        space-between will make each row to have equal space between each row inside the container, corresponding to y axis.
+      </div>
+    </h3>
+    
+    <div class="container-24 h-1000">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+
+     <!--  display flex; flex: wrap, align-content: flex-start | flex-end | center | space-between | space-around | stretch-->
+     <h3 class="heading">
+      align-content: space-around
+      <div class="explanation">
+        <strong>Explanation:</strong> 
+        <span class="css">align-content: space-around</span> 
+        makes the rows to align based on y axis, so if we have multiple flex items such that <span class="css"> flex-wrap: wrap </span>
+        makes more rows then we can align each row based on the y axis using this flex property.
+        space-around will make each row to have equal space around each row i.e. row will get equal amount of space at top and bottom of it, inside the container, corresponding to y axis.
+      </div>
+    </h3>
+    
+    <div class="container-25 h-1000">
+      <div class="item item-20">1 </div>
+      <div class="item item-20">2 </div>
+      <div class="item item-20">3 </div>
+      <div class="item item-20">4 </div>
+      <div class="item item-20">5 </div>
+      <div class="item item-20">6</div>
+      <div class="item item-20">7 </div>
+      <div class="item item-20">8 </div>
+      <div class="item item-20">9 </div>
+      <div class="item item-20">10 </div>
+    </div>
+  </section>
+</body>
+</html>
