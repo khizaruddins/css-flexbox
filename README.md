@@ -1,5 +1,11 @@
-# css-guide
+# css-guide to flexbox
 
 CSS flexbox-guide with css content,
 
-download zip and run flex-box.html you will see it in action.
+Explanation with visual css made flex containers flex items, and more as such
+
+Explanation right below every section.
+
+Fast reference for your Fast pace development.
+
+For remembering flexbox.
